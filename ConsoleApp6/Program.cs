@@ -35,16 +35,15 @@ namespace ConsoleApp6
 					case "start":
 						_tableCards = new List<string>(tableCards);
 						StartCommand(command);
-						foreach (var t in results)
-						{
-							Console.WriteLine(t.Key + " " + string.Join(" ", t.Value));
-						}
-						tableCards = new List<string>(_tableCards);
-						results.Clear();
 						break;
 
 					case "get-cards":
 						GetCardsCommand(command);
+						break;
+
+					case "clear":
+						tableCards = new List<string>(_tableCards);
+						results.Clear();
 						break;
 				}
 			}
@@ -75,13 +74,13 @@ namespace ConsoleApp6
 				var cardsList = new string[cardsCount];
 				for (int j = 0; j < cardsCount; j++)
 				{
-					cardsList[j] = GetCard2();
+					cardsList[j] = GetCard();
 				}
 				results.Add(i, cardsList);
 			}
 		}
 
-		public static string GetCard2()
+		public static string GetCard()
 		{
 			if (tableCards.Count() == 0) return "";
 			var randNumber = rand.Next(0, tableCards.Count());
