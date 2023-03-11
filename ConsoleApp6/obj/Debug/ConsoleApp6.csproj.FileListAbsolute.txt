@@ -1,8 +1,0 @@
-C:\Users\Grigory\source\repos\Task\ConsoleApp6\bin\Debug\ConsoleApp6.exe.config
-C:\Users\Grigory\source\repos\Task\ConsoleApp6\bin\Debug\ConsoleApp6.exe
-C:\Users\Grigory\source\repos\Task\ConsoleApp6\bin\Debug\ConsoleApp6.pdb
-C:\Users\Grigory\source\repos\Task\ConsoleApp6\obj\Debug\ConsoleApp6.csproj.AssemblyReference.cache
-C:\Users\Grigory\source\repos\Task\ConsoleApp6\obj\Debug\ConsoleApp6.csproj.SuggestedBindingRedirects.cache
-C:\Users\Grigory\source\repos\Task\ConsoleApp6\obj\Debug\ConsoleApp6.csproj.CoreCompileInputs.cache
-C:\Users\Grigory\source\repos\Task\ConsoleApp6\obj\Debug\ConsoleApp6.exe
-C:\Users\Grigory\source\repos\Task\ConsoleApp6\obj\Debug\ConsoleApp6.pdb
